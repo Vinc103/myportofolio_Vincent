@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <style>
+        @import url(CSS/style.css);
+        @import url(IMG/);
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Portofolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="particles-js"></div>
+
+        <!-- Include the Particles.js library via CDN -->
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+        <script>
+            particlesJS('particles-js', {
+                "particles": {
+                    "number": {
+                        "value": 80, // Number of particles
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#000000" // Particle color
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#000000",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "grab"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "remove"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 70,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+        </script>
+    </header>   
+    
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <img src="IMG/Photo.jpg" alt="Your Photo">
+            <p>Hello! Nama Saya Vincent, Jurusan Computer Scinece di Binus University. saya ingin mengeksplorasi coding dan progam. Ada project yang sudah pernah dijalani, Project Automed, GeniusInteractify, dan EcoValue yang sedang dijalankan untuk Entreperneship.</p>
+        </section>
+
+        <section id="about2" class="about">
+            <h2>Pengalaman</h2>
+            <ul>
+                <li>Project Software Engineering dalam pembuatan Website </li>
+                <li>Human and Computer Interaction dalam pembuatan website dan prototyping</li>
+                <li>HIMTI (Himpunan Teknik Informatika) dalam responsi dan HIMTI Care</li>
+            </ul>
+        </section>
+    
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div>
+                    <h3>Automed (2023)</h3>
+                    <img src="IMG/Project1.png" alt="Project 1">
+                    <p>Pembuatan web dan protoyping untuk pemilik kendaraan pribadi yang mau service kendaraan mereka ke toko yang ada dalam wilayah Indonesia ada dalam web.</p>
+                </div>
+                <div>
+                    <h3>Virtual FitBuddy (2023)</h3>
+                    <img src="IMG/Project2.png" alt="Project 3">
+                    <p>Dalam Project tersebut dibuat untuk Artificial Intelligence yang bisa memantau gerakan, dan data yang akurat untuk kebutuhan makan dan kesehatan dalam aplikasi.</p>
+                </div>
+                <div>
+                    <h3>GeniusInteractify (2023-2024)</h3>
+                    <img src="IMG/Project3.png" alt="Project 2">
+                    <p>GeniusInteractify, adalah website yang berbasis tentang seorang siswa/i yang sudah lulus sekolah dan ingin melihat mata kuliah/jurusan yang diinginkan siswa/i untuk tugas Software Engineering sesuai dengan SDGs indonesia.</p>
+                </div>
+                <div>
+                    <h3>EcoValue (2024-2025)</h3>
+                    <img src="" alt="">
+                    <p>On Going project. Dalam project tersebut pembuatan website untuk ecommerce dalam menjual produk - produk yang dapat di daur ulang  dalam web tersebut</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <!-- <p>If you would like to work together, feel free to reach out through the following:</p> -->
+            <ul>
+                <li>Email: vincentvinc.vv10@gmail.com</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/vincent-vincent-0a5a82329/">Vincent Vincent / Vincent</a></li>
+                <li>Number Phone: 08116075289</li>
+            </ul>
+        </section>
+        
+    </div>
+    <footer>
+        <p>© 2024 Vincent.</p>
+    </footer>
+     
+    
+</body>
+</html>
