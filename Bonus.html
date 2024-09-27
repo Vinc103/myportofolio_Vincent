@@ -3,25 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
+    <title>Document</title>
     <style>
-        @import url(CSS/style.css);
-        @import url(IMG/);
-
-       
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1; /* Partikel di belakang konten */
+            background-color: white;
+        }
     </style>
 </head>
-
 <body>
-    <header>
-        <h1>My Portofolio</h1>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <!-- <a href="Bonus.html">Bonus</a> -->
-        </nav>
-        <div id="particles-js"></div>
+
+
+<div id="particles-js"></div>
 
         <!-- Include the Particles.js library via CDN -->
         <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -133,67 +131,5 @@
                 "retina_detect": true
             });
         </script>
-    </header>   
-    
-    <div class="container">
-        <section id="about" class="about">
-            <h2>About Me</h2>
-            <img src="IMG/Photo.jpg" alt="Your Photo">
-            <p>Hello! Nama Saya Vincent dengan NIM 2602077641, jurusan Computer Scinece di Binus University. saya ingin mengeksplorasi coding dan progam. Ada project yang sudah pernah dijalani, Project Automed, GeniusInteractify, dan EcoValue yang sedang dijalankan untuk Entreperneship.</p>
-        </section>
-
-        <section id="about2" class="about">
-            <h2>Pengalaman</h2>
-            <ul>
-                <li>Project Software Engineering dalam pembuatan Website </li>
-                <li>Human and Computer Interaction dalam pembuatan website dan prototyping</li>
-                <li>HIMTI (Himpunan Teknik Informatika) dalam responsi dan HIMTI Care</li>
-            </ul>
-            <hr>
-        </section>
-    
-        <section id="projects" class="projects">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div>
-                    <h3>Automed (2023)</h3>
-                    <img src="IMG/Project1.png" alt="Project 1">
-                    <p>Pembuatan web dan protoyping untuk pemilik kendaraan pribadi yang mau service kendaraan mereka ke toko yang ada dalam wilayah Indonesia ada dalam web.</p>
-                </div>
-                <div>
-                    <h3>Virtual FitBuddy (2023)</h3>
-                    <img src="IMG/Project2.png" alt="Project 3">
-                    <p>Dalam Project tersebut dibuat untuk Artificial Intelligence yang bisa memantau gerakan, dan data yang akurat untuk kebutuhan makan dan kesehatan dalam aplikasi.</p>
-                </div>
-                <div>
-                    <h3>GeniusInteractify (2023-2024)</h3>
-                    <img src="IMG/Project3.png" alt="Project 2">
-                    <p>GeniusInteractify, adalah website yang berbasis tentang seorang siswa/i yang sudah lulus sekolah dan ingin melihat mata kuliah/jurusan yang diinginkan siswa/i untuk tugas Software Engineering sesuai dengan SDGs indonesia.</p>
-                </div>
-                <div>
-                    <h3>EcoValue (2024-2025)</h3>
-                    <img src="" alt="">
-                    <p>On Going project. Dalam project tersebut pembuatan website untuk ecommerce dalam menjual produk - produk yang dapat di daur ulang  dalam web tersebut</p>
-                </div>
-            </div>
-            <hr>
-        </section>
-    
-        <section id="contact" class="contact">
-            <h2>Contact</h2>
-            <!-- <p>If you would like to work together, feel free to reach out through the following:</p> -->
-            <ul>
-                <li>Email: vincentvinc.vv10@gmail.com</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/vincent-vincent-0a5a82329/">Vincent Vincent / Vincent</a></li>
-                <li>Number Phone: 08116075289</li>
-            </ul>
-        </section>
-        
-    </div>
-    <footer>
-        <p></p>
-    </footer>
-     
-    
 </body>
 </html>
