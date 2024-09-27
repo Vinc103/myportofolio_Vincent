@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #aaafae;
+        overflow: hidden;
+    }
         #particles-js {
             position: absolute;
             width: 100%;
@@ -14,10 +21,35 @@
             z-index: -1; /* Partikel di belakang konten */
             background-color: white;
         }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            height: 65px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+        }
     </style>
 </head>
 <body>
-
+    <header>
+        <h1>For FUN</h1>
+        <nav>
+            <a href="index.html">Back</a>
+        </nav>
+    </header>
 
 <div id="particles-js"></div>
 
@@ -28,7 +60,7 @@
             particlesJS('particles-js', {
                 "particles": {
                     "number": {
-                        "value": 80, // Number of particles
+                        "value": 85, // Number of particles
                         "density": {
                             "enable": true,
                             "value_area": 800
@@ -104,7 +136,7 @@
                     },
                     "modes": {
                         "grab": {
-                            "distance": 70,
+                            "distance": 85,
                             "line_linked": {
                                 "opacity": 1
                             }
